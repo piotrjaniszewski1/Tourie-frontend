@@ -1,20 +1,60 @@
-# engineering-project-frontend
+# **Tourie: front-end**
 
-## Getting started
+## Table of contents
+* [General info](#general-info)
+* [Requirements](#requirements)
+* [Technologies](#technologies)
+* [Third-party](#third-party)
+* [Setup](#setup)
+* [Features](#features)
+* [Environment variables](#environment-variables)
+* [Available scripts](#available-scripts)
+* [Contact](#contact)
 
-### Requirements
+## General info
 
+This is **Tourie** a smart city guide, that may help one to find amazing places in any city, provide plenty of information about them and plan a city tour using a dedicated recommender system. It was implemented as a Progressive Web Application.
+
+## Requirements
 * Node.js
 * Yarn
 * Corresponding back-end application
 
-### Setup
+## Technologies
+* JavaScript
+* React.js
+* React Router
+* Redux
+* Styled components
+* Web Speech API
 
+## Third-party
+* Google Maps API
+* Google Places API
+* Google Roads API
+* Wit.ai
+
+## Setup
 ```bash
-git clone git@github.com:hejmsdz/engineering-project-frontend.git
-cd engineering-project-frontend
+git clone https://github.com/piotrjaniszewski1/Tourie-frontend.git
+cd Tourie-frontend
 yarn
 ```
+
+## Features
+* Database with various places assigned to various categories
+* User accounts (creating account, logging in, altering user data, deleting account)
+* Creating routes - user chooses categories / time / starting point
+* Showing full route before accepting it
+* Travel mode - after accepting the route user sees list of places on the route, information about the place, sort of a navigation while traveling
+* Application can be run from the phone's desktop
+* Application works to certain extent when offline
+* Performing action with voice commands
+* History of previous routes
+* Planning routes for the future (without immediately going to travel mode)
+* Saving favourite places, routes, whatever
+* Quick edit of places in route before accepting it
+* Route statistics
 
 ### Environment variables
 
@@ -41,13 +81,13 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Authors
+Created by students from Poznań University of Technology:
+* [Piotr Janiszewski](mailto:1piotr.janiszewski@gmail.com)
+* Tomasz Gil
+* Piotr Ptak
+* Mikołaj Rozwadowski
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to contact us!
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
