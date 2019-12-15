@@ -1,4 +1,6 @@
-# **Tourie: front-end**
+# **Tourie**
+
+This is a front-end part of the **Tourie** mobile application.
 
 ## Table of contents
 * [General info](#general-info)
