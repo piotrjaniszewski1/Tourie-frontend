@@ -1,0 +1,4 @@
+# Forcing LF file endings.
+* text eol=lf
+*.png  binary
+*.ico  binary
