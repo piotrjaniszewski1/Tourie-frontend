@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "javascript-time-ago": "^2.0.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
     "react-circular-progressbar": "^1.0.0",
